@@ -36,6 +36,10 @@ function displayLibrary() {
         bookYear.textContent = book.year;
         bookDiv.appendChild(bookYear);
 
+        const bookPages = document.createElement('p');
+        bookPages.textContent = book.pages;
+        bookDiv.appendChild(bookPages);
+
         const bookRead = document.createElement('p');
         bookRead.textContent = book.read ? 'Read' : 'Not Read';
         bookDiv.appendChild(bookRead);
