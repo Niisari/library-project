@@ -91,14 +91,14 @@ body::before {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 
     width: 50%;
-    padding: 1rem;
-
-    background-color: var(--modal-bg);
-    border-radius: 0.5rem;
 
     .book {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+
+        background-color: var(--modal-bg);
+        border-radius: 0.5rem;
+        padding: 1rem;
     }
 }
