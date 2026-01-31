@@ -27,12 +27,17 @@ body::before {
     padding: 0.5rem 1rem;
     font-size: 1rem;
 
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: var(--modal-bg);
-    color: var(--modal-text);
+    color: var(--modal-btn--text);
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 .modal {
     display: none;
+}
+
+.modal__btn--title,
+#readLabel {
+    color: var(--modal--subtext);
 }

@@ -3,7 +3,9 @@
     --main-heading: #F5E0C3;
 
     --modal-bg: rgba(255, 255, 255, 0.95);
-    --modal-text: #222222;
+    --modal-btn--text: #222222;
+
+    --modal--subtext: #FFE5B4;
 }
 
 @font-face {
@@ -54,8 +56,10 @@ button {
     cursor: pointer;
     border: none;
     background: none;
+
+    color: var(--modal--subtext);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3{
     font-weight: 600;
 }
