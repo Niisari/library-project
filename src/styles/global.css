@@ -91,6 +91,7 @@ body::before {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 
     width: 50%;
+    gap: 1rem;
 
     .book {
         display: flex;
