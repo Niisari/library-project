@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <title>Odin Project | Library</title>
+</head>
+<body>
+
+    <h1>📚 My Library</h1>
+
+    <!-- Open modal button -->
+    <button id="openModal">➕ Add Book</button>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+        <button class="close" id="closeModal">&times;</button>
+        <h2>Add Book</h2>
+
+        <form id="bookForm" prevent-default="true">
+            <input required placeholder="Title" id="title">
+            <input required placeholder="Author" id="author">
+            <input required type="number" placeholder="Year" id="year">
+
+            <label>
+            Read
+            <input type="checkbox" id="read">
+            </label>
+            <button type="submit">Save</button>
+        </form>
+        </div>
+    </div>
+
+    <!-- Book library -->
+    <div id="library"></div>
+
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>
