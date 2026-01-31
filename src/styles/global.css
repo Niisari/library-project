@@ -57,8 +57,8 @@ body::before {
 .modal__content {
         position: relative;
         margin: 17vh auto;
-        padding: 0 2rem 2rem;
-        width: 80%;
+        padding: 3rem 2rem 2rem;
+        width: 20rem;
 
         background: url('../assets/images/modal-bg.jpg') no-repeat ; /* semi-opaque white */
         background-size: cover;
@@ -101,7 +101,9 @@ body::before {
     }
 
     .close__btn {
-        align-self: flex-end;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
         font-size: 1.5rem;
         font-weight: bold;
     }   
@@ -138,6 +140,7 @@ body::before {
         .book__status {
             border-bottom: 1px solid var(--modal--subtext);
             border-radius: 0.25rem;
+            color: var(--modal-btn--text);
 
             padding: 0.25rem 0.5rem;
             width: 100%;
