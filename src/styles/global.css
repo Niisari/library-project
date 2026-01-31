@@ -55,7 +55,7 @@ body::before {
 
 .modal__content {
         position: relative;
-        margin: 15vh auto;
+        margin: 17vh auto;
         padding: 0 2rem 2rem;
         width: 80%;
 
@@ -67,8 +67,11 @@ body::before {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
         z-index: 1000;
+
+        .modal__title {
+            margin-bottom: 1rem;
+        }
 
     #bookForm {
         display: flex;
