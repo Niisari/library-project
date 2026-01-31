@@ -36,11 +36,11 @@ function displayLibrary() {
         bookDiv.setAttribute('data-id', book.id);
 
         bookDiv.innerHTML = `
-            <h3>${book.title}</h3>
-            <p>Author: ${book.author}</p>
-            <p>Year: ${book.year}</p>
-            <p>Pages: ${book.pages}</p>
-            <p>Status: ${book.read ? 'Read ✅' : 'Not Read ❌'}</p>
+            <h3 class="book__title">${book.title}</h3>
+            <p class="book__author">Author: ${book.author}</p>
+            <p class="book__year">Year: ${book.year}</p>
+            <p class="book__pages">Pages: ${book.pages}</p>
+            <p class="book__status">Status: ${book.read ? 'Read' : 'Not Read'}</p>
             <button class="edit-btn">Edit ✏️</button>
             <button class="delete-btn">Delete 🗑️</button>
         `;
