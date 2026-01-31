@@ -1,4 +1,4 @@
-// ========== Library Data ==========
+// ========== Library Data Array ==========
 let myLibrary = [];
 
 // Functional book creation

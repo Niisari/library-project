@@ -8,7 +8,7 @@
 
     --card-btn-bg: rgba(247, 208, 168, 0.5);
 }
-
+/* Fonts */
 @font-face {
     font-family: 'Inter';
     font-weight: 400;
@@ -40,7 +40,7 @@
     font-display: swap;
     src: url('../assets/fonts/inter-v20-latin-700.woff2')
 }
-
+/* Reset */
 *,
 *::before,
 *::after {
@@ -48,7 +48,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Global Styles */
 body {
     font-family: 'Inter', sans-serif;
 }
