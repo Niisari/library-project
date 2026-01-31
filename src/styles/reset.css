@@ -58,6 +58,8 @@ button {
     background: none;
 
     color: var(--modal-btn--text);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3{
