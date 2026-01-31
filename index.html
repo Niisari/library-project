@@ -16,24 +16,23 @@
 
     <!-- Modal -->
     <div class="modal" id="modal">
-        <div class="modal__content">
-        <button class="close__btn" id="closeModal">&times;</button>
-        <h2 class="modal__btn--title">Add Book</h2>
-
-        <form id="bookForm">
-            <input required placeholder="Title" id="title">
-            <input required placeholder="Author" id="author">
-            <input required type="number" placeholder="Year" id="year">
-            <input required type="number" placeholder="Pages" id="pages">
-
-            <label for="read" id="readLabel">
-            Have you read it?
-            <input type="checkbox" id="read">
-            </label>
-            <button type="submit" id="submit-btn" class="submit__btn">Save</button>
-        </form>
+        <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <button class="close__btn" id="closeModal">&times;</button>
+                <h2 class="modal__title">Add Book</h2>
+                <form id="bookForm">
+                <input required placeholder="Title" id="title">
+                <input required placeholder="Author" id="author">
+                <input required type="number" placeholder="Year" id="year">
+                <input required type="number" placeholder="Pages" id="pages">
+                <label for="read" id="readLabel">
+                    Have you read it?
+                    <input type="checkbox" id="read">
+                </label>
+                <button type="submit" id="submit-btn" class="submit__btn">Save</button>
+                </form>
+            </div>
         </div>
-    </div>
 
     <!-- Book library -->
     <div id="library"></div>
