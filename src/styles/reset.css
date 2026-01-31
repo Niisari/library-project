@@ -5,6 +5,8 @@
     --modal-bg: rgba(255, 255, 255, 0.95);
     --modal-btn--text: #222222;
     --modal--subtext: #FFE5B4;
+
+    --card-btn-bg: rgba(247, 208, 168, 0.5);
 }
 
 @font-face {
@@ -87,4 +89,8 @@ input[type="checkbox"] {
 
 h1, h2, h3{
     font-weight: 600;
+}
+
+p {
+    font-size: 0.9rem;
 }
