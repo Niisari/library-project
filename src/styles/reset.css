@@ -4,8 +4,9 @@
 
     --modal-bg: rgba(255, 255, 255, 0.95);
     --modal-btn--text: #222222;
-
     --modal--subtext: #FFE5B4;
+
+    --light-semi--transparent: rgba(255, 255, 255, 0.5);
 }
 
 @font-face {
