@@ -40,7 +40,7 @@ function displayLibrary() {
             <p class="book__author">Author: ${book.author}</p>
             <p class="book__year">Year: ${book.year}</p>
             <p class="book__pages">Pages: ${book.pages}</p>
-            <p class="book__status">Status: ${book.read ? 'Read' : 'Not Read'}</p>
+            <p class="book__status">Status: ${book.read ? 'Read ✅' : 'Not Read ❌'}</p>
             <button class="edit-btn">Edit ✏️</button>
             <button class="delete-btn">Delete 🗑️</button>
         `;
